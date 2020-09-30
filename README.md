@@ -1,5 +1,9 @@
-# PA3_Sudoku_AI
-## CS531 AI Programming Assignment3
+# Aritificial Intelligence Project
+## A study of solving sudoku:
+## Using combination of various inference rules
+&nbsp;
+
+### Problem Description
 
 In this assignment you will be implementing a solver for SuDoKu. Figure 6.4 in the book gives an example and there are plenty of pages on the web with examples.
 
@@ -34,4 +38,10 @@ Please refer to this [page](http://www.sudokuessentials.com/sudoku_tips.html) fo
 There is a set of sample problems [here](http://web.engr.oregonstate.edu/~tadepall/cs531/18/sudoku-problems.txt). The numbers are written in the file row-wise, with 0 representing empty slots. Each team should try to solve all the problems, starting with the easy ones. Report the number of problems solved and the number of backtracks with each problem. Experts appear to grade the problems by the complexity of rules needed to solve them without backtracking. Is this conjecture roughly correct? Grade each problem, by the set of rules used in solving it. Report also the average number of filled-in numbers (in the beginning) for each of these types of problems. Would this accurately reflect the difficulty of the problem?
 
 Report your results in the form of a mini-paper as you did for the other two assignments. Give the pseudocode for the algorithm. Discuss how the results vary with the difficulty of the problems, and the effectiveness of the most-constrained variable heuristic compared to fixed selection. Also report on the effectiveness of rule subsets in reducing the search. Is the number of backtracks reduced by increased inference rules? What about the total time for solving the puzzles? Please feel free to include any other observations.
+&nbsp;
+&nbsp;
 
+## The Experiment Results:
+### Abstract
+This experiment contains analysis of using various inference rules for solving sudoku generated in different environments by following a fixed-order baseline and most constrained variable heuristic. The inference rules used are: naked singles, hidden singles, naked pairs, hidden pairs, naked triples, hidden triples in the order presented. While determining rules for selection either simple backtracking is used or a subset of rules in a predetermined order are used.
+## - For the detail, Please see the [report](https://github.com/csdankim/Sudoku/blob/master/PA3_Sudoku.pdf).
